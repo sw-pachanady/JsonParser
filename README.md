@@ -32,6 +32,7 @@ Output
   "Product.SubProduct.datepacked":"12/12/21",
   "Product.source":"India",
   "Product.SubProduct
+ }
 ```
 ## Getting Started
 
@@ -48,16 +49,27 @@ Output
 ### Executing program
 
 * How to run the program
-* In termainal in linux or cmd in windows run the following command from root of the project
-Windows: 
+* In termainal in linux or cmd in windows run the following commands from root of the project
+
+Package the jar
+
+**mvn package**
+
+Windows:
+ 
 runParser.cmd -f fullFilePath
+
 For e.g.
-runParser.cmd -f D:\source\JsonParser\src\test\resources\data.json
-Linux
+
+**runParser.cmd -f D:\source\JsonParser\src\test\resources\data.json**
+
+Linux:
  
 ./runParser.sh -f fullFilePath
+
 For e.g.
-./runParser.sh -f /user/abc/JsonParser/src/test/resources/data.json
+
+**./runParser.sh -f /user/abc/JsonParser/src/test/resources/data.json**
 ### Running tests
 mvn test
 
